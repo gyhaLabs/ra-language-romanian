@@ -1,0 +1,44 @@
+{
+    "name": "ra-language-romanian",
+    "description": "Romanian translations for react-admin. A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, React and Material Design",
+    "version": "0.1.0",
+    "author": "György Hunor-Árpád",
+    "bugs": {
+        "url": "https://github.com/gyhaLabs/ra-language-romanian/issues"
+    },
+    "homepage": "https://github.com/gyhaLabs/ra-language-romanian#readme",
+    "keywords": [
+        "admin-on-rest",
+        "i18n",
+        "react",
+        "react-admin",
+        "translation"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gyhaLabs/ra-language-romanian.git"
+    },
+    "files": [
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "types": "esm/index.d.ts",
+    "scripts": {
+        "build": "npm run build-cjs && npm run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+        "watch": "tsc --outDir esm --module es2015 --watch"
+    },
+    "dependencies": {
+        "ra-core": "^3.4.1"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^3.8.3"
+    }
+}
