@@ -1,6 +1,6 @@
 import { TranslationMessages } from "ra-core";
 
-const englishMessages: TranslationMessages = {
+const romanianMessages: TranslationMessages = {
     ra: {
         action: {
             add_filter: "Adaugă filtru",
@@ -141,4 +141,4 @@ const englishMessages: TranslationMessages = {
     },
 };
 
-export default englishMessages;
+export default romanianMessages;
