@@ -108,7 +108,7 @@ const romanianMessages: TranslationMessages = {
         auth: {
             auth_check_error: "Vă rugăm să vă autentificați pentru a continua",
             user_menu: "Profil",
-            username: "Nume de utilizator",
+            username: "Nume utilizator",
             password: "Parolă",
             sign_in: "Conectare",
             sign_in_error:
