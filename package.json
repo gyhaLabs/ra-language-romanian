@@ -1,7 +1,7 @@
 {
     "name": "ra-language-romanian",
     "description": "Romanian translations for react-admin. A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, React and Material Design",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "György Hunor-Árpád",
     "bugs": {
         "url": "https://github.com/gyhaLabs/ra-language-romanian/issues"
