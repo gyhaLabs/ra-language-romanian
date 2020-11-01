@@ -25,6 +25,7 @@ const romanianMessages: TranslationMessages = {
             show: "Arată",
             sort: "Sortează",
             undo: "Anulează",
+            unselect: "Deselectați",
             expand: "Extinde",
             close: "Închide",
             open_menu: "Deschide meniu",
