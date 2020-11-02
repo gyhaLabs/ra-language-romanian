@@ -106,6 +106,11 @@ const romanianMessages: TranslationMessages = {
             next: "Următorul",
             prev: "Precendetul",
         },
+        sort: {
+            sort_by: 'Sortează după %{field} %{order}',
+            ASC: 'ascendentă',
+            DESC: 'descendentă',
+        },
         auth: {
             auth_check_error: "Vă rugăm să vă autentificați pentru a continua",
             user_menu: "Profil",
