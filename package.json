@@ -23,7 +23,8 @@
         "*.md",
         "lib",
         "esm",
-        "src"
+        "src",
+        "tsconfig.json"
     ],
     "main": "lib/index.js",
     "module": "esm/index.js",
