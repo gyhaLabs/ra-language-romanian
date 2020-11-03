@@ -25,6 +25,7 @@ const romanianMessages: TranslationMessages = {
             show: "Arată",
             sort: "Sortează",
             undo: "Anulează",
+            unselect: "Deselectați",
             expand: "Extinde",
             close: "Închide",
             open_menu: "Deschide meniu",
@@ -104,6 +105,11 @@ const romanianMessages: TranslationMessages = {
             page_rows_per_page: "Rânduri pe pagină:",
             next: "Următorul",
             prev: "Precendetul",
+        },
+        sort: {
+            sort_by: 'Sortează după %{field} %{order}',
+            ASC: 'ascendentă',
+            DESC: 'descendentă',
         },
         auth: {
             auth_check_error: "Vă rugăm să vă autentificați pentru a continua",

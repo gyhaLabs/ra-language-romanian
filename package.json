@@ -23,7 +23,8 @@
         "*.md",
         "lib",
         "esm",
-        "src"
+        "src",
+        "tsconfig.json"
     ],
     "main": "lib/index.js",
     "module": "esm/index.js",
@@ -35,10 +36,10 @@
         "watch": "tsc --outDir esm --module es2015 --watch"
     },
     "dependencies": {
-        "ra-core": "^3.4.1"
+        "ra-core": "^3.9.5"
     },
     "devDependencies": {
         "rimraf": "^3.0.2",
-        "typescript": "^3.8.3"
+        "typescript": "^3.9.7"
     }
 }
