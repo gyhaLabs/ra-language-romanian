@@ -59,7 +59,7 @@ const romanianMessages: TranslationMessages = {
                 upload_several:
                     "Trageți aici imagini pentru a încărca sau clic pentru a selecta una.",
                 upload_single:
-                    "Trageți aici o imagin pentru a încărca sau clic pentru a selecta una.",
+                    "Trageți aici o imagine pentru a încărca sau clic pentru a selecta una.",
             },
             references: {
                 all_missing: "Nu se pot găsi datele referențiate.",
@@ -105,11 +105,12 @@ const romanianMessages: TranslationMessages = {
             page_rows_per_page: "Rânduri pe pagină:",
             next: "Următorul",
             prev: "Precendetul",
+            skip_nav: "Sari la conținut"
         },
         sort: {
-            sort_by: 'Sortează după %{field} %{order}',
-            ASC: 'ascendentă',
-            DESC: 'descendentă',
+            sort_by: "Sortează după %{field} %{order}",
+            ASC: "ascendentă",
+            DESC: "descendentă"
         },
         auth: {
             auth_check_error: "Vă rugăm să vă autentificați pentru a continua",
