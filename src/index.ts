@@ -141,7 +141,7 @@ const romanianMessages: TranslationMessages = {
         validation: {
             required: "Obligatoriu",
             minLength: "Trebuie să fie cel puțin %{min} caractere",
-            maxLength: "Trebuie să fie maxim %{min} caractere",
+            maxLength: "Trebuie să fie maxim %{max} caractere",
             minValue: "Trebuie să fie cel puțin %{min}",
             maxValue: "Trebuie să fie %{max} sau mai mic",
             number: "Trebuie sa fie un număr",
