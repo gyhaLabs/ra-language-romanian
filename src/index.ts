@@ -12,12 +12,12 @@ const romanianMessages: TranslationMessages = {
             clear_input_value: "Șterge valoarea",
             clone: "Copiază",
             confirm: "Confirmă",
-            create: "Crează",
+            create: "Creează",
             delete: "Șterge",
             edit: "Editează",
             export: "Exportă",
             list: "Listează",
-            refresh: "Reincarcă",
+            refresh: "Reîncarcă",
             remove_filter: "Șterge acest filtru",
             remove: "Șterge",
             save: "Salvează",
@@ -25,7 +25,7 @@ const romanianMessages: TranslationMessages = {
             show: "Arată",
             sort: "Sortează",
             undo: "Anulează",
-            unselect: "Deselectați",
+            unselect: "Deselectează",
             expand: "Extinde",
             close: "Închide",
             open_menu: "Deschide meniu",
@@ -37,7 +37,7 @@ const romanianMessages: TranslationMessages = {
             null: "",
         },
         page: {
-            create: "Crează %{name}",
+            create: "Creează %{name}",
             dashboard: "Dashboard",
             edit: "%{name} #%{id}",
             error: "Ceva n-a mers bine",
@@ -51,15 +51,15 @@ const romanianMessages: TranslationMessages = {
         input: {
             file: {
                 upload_several:
-                    "Trageți aici fișiere pentru a încărca sau clic pentru a selecta unul.",
+                    "Trageți aici fișiere pentru a le încărca sau clic pentru a selecta unul.",
                 upload_single:
-                    "Trageți aici un fișier pentru a încărca sau clic pentru a selecta unul.",
+                    "Trageți aici un fișier pentru a-l încărca sau clic pentru a selecta unul.",
             },
             image: {
                 upload_several:
-                    "Trageți aici imagini pentru a încărca sau clic pentru a selecta una.",
+                    "Trageți aici imagini pentru a le încărca sau clic pentru a selecta una.",
                 upload_single:
-                    "Trageți aici o imagine pentru a încărca sau clic pentru a selecta una.",
+                    "Trageți aici o imagine pentru a o încărca sau clic pentru a selecta una.",
             },
             references: {
                 all_missing: "Nu se pot găsi datele referențiate.",
@@ -85,10 +85,10 @@ const romanianMessages: TranslationMessages = {
             error:
                 "A apărut o eroare și solicitarea dvs. nu a putut fi finalizată",
             invalid_form: "Formularul nu este valid. Verificați erorile.",
-            loading: "Pagina se încarcă, doar un moment..",
+            loading: "Pagina se încarcă, doar un moment...",
             no: "Nu",
             not_found:
-                "Fie că ați introdus o adresă URL greșită, fie ați urmat un link necorespunzător",
+                "Fie ați introdus o adresă URL greșită, fie ați urmărit un link necorespunzător",
             yes: "Da",
             unsaved_changes:
                 "Unele dintre modificările dvs. nu au fost salvate. Sunteți sigur că doriți să le ignorați?",
@@ -96,15 +96,15 @@ const romanianMessages: TranslationMessages = {
         navigation: {
             no_results: "Nu au fost găsite rezultate",
             no_more_results:
-                "Numărul de pagină %{page} este în afara limitelor. Încercați pagina anterioară.The page number %{page} is out of boundaries. Try the previous page.",
+                "Numărul de pagină %{page} este în afara limitelor. Încercați pagina anterioară.",
             page_out_of_boundaries:
-                "PNumărul de pagină %{page} este în afara limitelor",
+                "Numărul de pagină %{page} este în afara limitelor",
             page_out_from_end: "Nu se poate merge după ultima pagină",
             page_out_from_begin: "Nu se poate merge înainte de pagina 1",
             page_range_info: "%{offsetBegin}-%{offsetEnd} din %{total}",
             page_rows_per_page: "Rânduri pe pagină:",
             next: "Următorul",
-            prev: "Precendetul",
+            prev: "Precedentul",
             skip_nav: "Sari la conținut"
         },
         sort: {
@@ -136,19 +136,19 @@ const romanianMessages: TranslationMessages = {
             i18n_error:
                 "Traducerile nu pot fi încărcate pentru limba specificată",
             canceled: "Acțiunea a fost anulată",
-            logged_out: "Sesiunea dvs. s-a încheiat, vă rugăm să reconectați.",
+            logged_out: "Sesiunea dvs. s-a încheiat, vă rugăm să vă reconectați.",
         },
         validation: {
             required: "Obligatoriu",
             minLength: "Trebuie să fie cel puțin %{min} caractere",
             maxLength: "Trebuie să fie maxim %{max} caractere",
             minValue: "Trebuie să fie cel puțin %{min}",
-            maxValue: "Trebuie să fie %{max} sau mai mic",
-            number: "Trebuie sa fie un număr",
+            maxValue: "Trebuie să fie cel mult %{max}",
+            number: "Trebuie să fie un număr",
             email: "Trebuie să fie un e-mail valid",
             oneOf: "Trebuie să fie una dintre: %{options}",
             regex:
-                "Trebuie să corespundă unui format specific (regexp): %{pattern}",
+                "Trebuie să corespundă unui format specific (regex): %{pattern}",
         },
     },
 };
