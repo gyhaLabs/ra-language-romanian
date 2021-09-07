@@ -1,154 +1,133 @@
-import { TranslationMessages } from "ra-core";
+import {TranslationMessages} from "ra-core";
 
 const romanianMessages: TranslationMessages = {
     ra: {
         action: {
-            add_filter: "Adaugă filtru",
             add: "Adăugă",
+            add_filter: "Adaugă filtru",
             back: "Înapoi",
-            bulk_actions:
-                "1 articol selectat |||| %{smart_count} articole selectate",
+            bulk_actions: "1 articol selectat |||| %{smart_count} articole selectate",
             cancel: "Anulează",
             clear_input_value: "Șterge valoarea",
             clone: "Copiază",
+            close: "Închide",
+            close_menu: "Închide meniu",
             confirm: "Confirmă",
-            create: "Crează",
+            create: "Creează",
+            create_item: "Creează element",
             delete: "Șterge",
             edit: "Editează",
+            expand: "Extinde",
             export: "Exportă",
             list: "Listează",
-            refresh: "Reincarcă",
-            remove_filter: "Șterge acest filtru",
+            open_menu: "Deschide meniu",
+            refresh: "Reîncarcă",
             remove: "Șterge",
+            remove_filter: "Șterge acest filtru",
             save: "Salvează",
             search: "Caută",
             show: "Arată",
             sort: "Sortează",
             undo: "Anulează",
-            unselect: "Deselectați",
-            expand: "Extinde",
-            close: "Închide",
-            open_menu: "Deschide meniu",
-            close_menu: "Închide meniu",
+            unselect: "Deselectează",
+            update: "Actualizează",
         },
-        boolean: {
-            true: "Da",
-            false: "Nu",
-            null: "",
-        },
+        boolean: {true: "Da", false: "Nu", null: "",},
         page: {
-            create: "Crează %{name}",
+            create: "Creează %{name}",
             dashboard: "Dashboard",
             edit: "%{name} #%{id}",
+            empty: "Nu sunt %{name} încă.",
             error: "Ceva n-a mers bine",
+            invite: "Vrei să adaugi?",
             list: "%{name}",
             loading: "Încărcare",
             not_found: "Nu s-a găsit",
             show: "%{name} #%{id}",
-            empty: "Nu sunt %{name} încă.",
-            invite: "Vrei să adaugi?",
         },
         input: {
             file: {
-                upload_several:
-                    "Trageți aici fișiere pentru a încărca sau clic pentru a selecta unul.",
-                upload_single:
-                    "Trageți aici un fișier pentru a încărca sau clic pentru a selecta unul.",
+                upload_several: "Trageți aici fișiere pentru a le încărca sau clic pentru a selecta unul.",
+                upload_single: "Trageți aici un fișier pentru a-l încărca sau clic pentru a selecta unul.",
             },
             image: {
-                upload_several:
-                    "Trageți aici imagini pentru a încărca sau clic pentru a selecta una.",
-                upload_single:
-                    "Trageți aici o imagine pentru a încărca sau clic pentru a selecta una.",
+                upload_several: "Trageți aici imagini pentru a le încărca sau clic pentru a selecta una.",
+                upload_single: "Trageți aici o imagine pentru a o încărca sau clic pentru a selecta una.",
             },
             references: {
                 all_missing: "Nu se pot găsi datele referențiate.",
-                many_missing:
-                    "Cel puțin una dintre referințele asociate nu mai este disponibilă.",
+                many_missing: "Cel puțin una dintre referințele asociate nu mai este disponibilă.",
                 single_missing: "Referința asociată nu mai este disponibilă.",
             },
-            password: {
-                toggle_visible: "Ascunde parola",
-                toggle_hidden: "Arată parola",
-            },
+            password: {toggle_visible: "Ascunde parola", toggle_hidden: "Arată parola",},
         },
         message: {
             about: "Despre",
             are_you_sure: "Sunteți sigur?",
-            bulk_delete_content:
-                "Sigur doriți să ștergeți articolul %{name}? |||| Sigur doriți să ștergeți aceste %{smart_count} articole?",
-            bulk_delete_title:
-                "Șterge %{name} |||| Șterge %{smart_count} %{name}",
+            bulk_delete_content: "Sigur doriți să ștergeți articolul %{name}? |||| Sigur doriți să ștergeți aceste %{smart_count} articole?",
+            bulk_delete_title: "Șterge %{name} |||| Șterge %{smart_count} %{name}",
+            bulk_update_content: "Actualizează în masă conținutul",
+            bulk_update_title: "Actualizează în masă titlurile",
             delete_content: "Sigur doriți să ștergeți acest articol?",
             delete_title: "Șterge %{name} #%{id}",
             details: "Detalii",
-            error:
-                "A apărut o eroare și solicitarea dvs. nu a putut fi finalizată",
+            error: "A apărut o eroare și solicitarea dvs. nu a putut fi finalizată",
             invalid_form: "Formularul nu este valid. Verificați erorile.",
-            loading: "Pagina se încarcă, doar un moment..",
+            loading: "Pagina se încarcă, doar un moment...",
             no: "Nu",
-            not_found:
-                "Fie că ați introdus o adresă URL greșită, fie ați urmat un link necorespunzător",
+            not_found: "Fie ați introdus o adresă URL greșită, fie ați urmărit un link necorespunzător",
+            unsaved_changes: "Unele dintre modificările dvs. nu au fost salvate. Sunteți sigur că doriți să le ignorați?",
             yes: "Da",
-            unsaved_changes:
-                "Unele dintre modificările dvs. nu au fost salvate. Sunteți sigur că doriți să le ignorați?",
         },
         navigation: {
+            next: "Următorul",
+            no_more_results: "Numărul de pagină %{page} este în afara limitelor. Încercați pagina anterioară.",
             no_results: "Nu au fost găsite rezultate",
-            no_more_results:
-                "Numărul de pagină %{page} este în afara limitelor. Încercați pagina anterioară.The page number %{page} is out of boundaries. Try the previous page.",
-            page_out_of_boundaries:
-                "PNumărul de pagină %{page} este în afara limitelor",
-            page_out_from_end: "Nu se poate merge după ultima pagină",
             page_out_from_begin: "Nu se poate merge înainte de pagina 1",
+            page_out_from_end: "Nu se poate merge după ultima pagină",
+            page_out_of_boundaries: "Numărul de pagină %{page} este în afara limitelor",
             page_range_info: "%{offsetBegin}-%{offsetEnd} din %{total}",
             page_rows_per_page: "Rânduri pe pagină:",
-            next: "Următorul",
-            prev: "Precendetul",
+            prev: "Precedentul",
             skip_nav: "Sari la conținut"
         },
         sort: {
-            sort_by: "Sortează după %{field} %{order}",
             ASC: "ascendentă",
-            DESC: "descendentă"
+            DESC: "descendentă",
+            sort_by: "Sortează după %{field} %{order}",
         },
         auth: {
             auth_check_error: "Vă rugăm să vă autentificați pentru a continua",
-            user_menu: "Profil",
-            username: "Nume utilizator",
+            logout: "Deconectare",
             password: "Parolă",
             sign_in: "Conectare",
-            sign_in_error:
-                "Autentificarea a eșuat. Vă rugăm să încercați din nou.",
-            logout: "Deconectare",
+            sign_in_error: "Autentificarea a eșuat. Vă rugăm să încercați din nou.",
+            user_menu: "Profil",
+            username: "Nume utilizator",
         },
         notification: {
-            updated:
-                "Articolul s-a actualizat |||| S-au actualizat %{smart_count} articole",
-            created: "Articolul s-a creat",
-            deleted:
-                "Articolul s-a șters |||| S-au șters %{smart_count} articole",
             bad_item: "Articol incorect",
-            item_doesnt_exist: "Articolul nu există",
-            http_error: "Eroare de comunicare cu serverul",
-            data_provider_error:
-                "Eroare dataProvider. Verificați detaliile în consolă.",
-            i18n_error:
-                "Traducerile nu pot fi încărcate pentru limba specificată",
             canceled: "Acțiunea a fost anulată",
-            logged_out: "Sesiunea dvs. s-a încheiat, vă rugăm să reconectați.",
+            created: "Articolul s-a creat",
+            data_provider_error: "Eroare dataProvider. Verificați detaliile în consolă.",
+            deleted: "Articolul s-a șters |||| S-au șters %{smart_count} articole",
+            http_error: "Eroare de comunicare cu serverul",
+            i18n_error: "Traducerile nu pot fi încărcate pentru limba specificată",
+            item_doesnt_exist: "Articolul nu există",
+            logged_out: "Sesiunea dvs. s-a încheiat, vă rugăm să vă reconectați.",
+            not_authorized: "Nu sunteți autorizat",
+            updated: "Articolul s-a actualizat |||| S-au actualizat %{smart_count} articole",
         },
         validation: {
-            required: "Obligatoriu",
-            minLength: "Trebuie să fie cel puțin %{min} caractere",
-            maxLength: "Trebuie să fie maxim %{max} caractere",
-            minValue: "Trebuie să fie cel puțin %{min}",
-            maxValue: "Trebuie să fie %{max} sau mai mic",
-            number: "Trebuie sa fie un număr",
             email: "Trebuie să fie un e-mail valid",
+            maxLength: "Trebuie să fie maxim %{max} caractere",
+            maxValue: "Trebuie să fie cel mult %{max}",
+            minLength: "Trebuie să fie cel puțin %{min} caractere",
+            minValue: "Trebuie să fie cel puțin %{min}",
+            number: "Trebuie să fie un număr",
             oneOf: "Trebuie să fie una dintre: %{options}",
-            regex:
-                "Trebuie să corespundă unui format specific (regexp): %{pattern}",
+            regex: "Trebuie să corespundă unui format specific (regex): %{pattern}",
+            required: "Obligatoriu",
         },
     },
 };
